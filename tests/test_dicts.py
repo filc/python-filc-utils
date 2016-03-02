@@ -1,5 +1,5 @@
 import os
-from utils import dicts
+from filcutils import dicts
 
 test_dict_1 = {
     'k1': 'v1',

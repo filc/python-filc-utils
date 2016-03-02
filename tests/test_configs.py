@@ -1,5 +1,5 @@
 import os
-from utils import configs
+from filcutils import configs
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
 

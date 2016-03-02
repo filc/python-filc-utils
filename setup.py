@@ -3,7 +3,7 @@ from setuptools import setup
 
 
 __version__ = None
-exec(open('utils/version.py').read())
+exec(open('filcutils/version.py').read())
 
 
 def next_version():
@@ -29,7 +29,7 @@ setup(
     author_email='peter.ujvari.3@gmail.com',
     description='Filc\'s util function collection...',
     long_description=read_file('README.md') + '\n\n',
-    packages=['utils'],
+    packages=['filcutils'],
     include_package_data=True,
     zip_safe=False,
     platforms='any',
