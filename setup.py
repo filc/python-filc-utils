@@ -20,7 +20,7 @@ def read_file(f):
         return ''
 
 setup(
-    name='FilcUtils',
+    name='filcutils',
     version=__version__,
     url='https://github.com/filc/python-filc-utils/',
     download_url='https://github.com/filc/python-filc-utils/tarball/' + __version__,
